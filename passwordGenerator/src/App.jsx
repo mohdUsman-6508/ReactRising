@@ -32,7 +32,7 @@ function App() {
 
   useEffect(() => {
     generate();
-  }, [setPassword, number, char, numberOfChar]);
+  }, [setPassword, number, char, numberOfChar, generate]);
 
   return (
     <>
